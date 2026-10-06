@@ -1,0 +1,98 @@
+{
+  "Configuracoes": {
+    "IntervaloSegundos": 10,
+    "AutoRecuperacao": true,
+    "MaxTentativasAuto": 3,
+    "CooldownSegundos": 60,
+    "NotificacaoSonora": true,
+    "NotificacaoBalao": true,
+    "TimeoutPortaMs": 1000,
+    "WebhookUrl": ""
+  },
+  "Servicos": [
+    {
+      "Nome": "ServicoFiscal",
+      "Titulo": "Serviço Fiscal",
+      "Descricao": "Emissão e sincronização fiscal (NFC-e / SAT)",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "QualityPulser",
+      "Titulo": "Quality Pulser Web",
+      "Descricao": "Comunicação e automação de bombas de combustível Quality",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "srvIntegraWeb",
+      "Titulo": "Integra Web",
+      "Descricao": "Integração web e sincronização de dados de pista",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "ServicoAutomacao",
+      "Titulo": "webPosto Automação",
+      "Descricao": "Leitura e automação de pista webPosto",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "ServicoBaixaAutomatica",
+      "Titulo": "webPosto Baixa Automática",
+      "Descricao": "Rotina de baixa automática de pendências webPosto",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "ServicoPremmia",
+      "Titulo": "Serviço Premmia",
+      "Descricao": "Integração do programa de fidelidade Premmia",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "ServicoSemParar",
+      "Titulo": "Serviço Sem Parar",
+      "Descricao": "Identificação e pagamento Sem Parar abastecimento",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "ServicoShellBox",
+      "Titulo": "Serviço Shell Box",
+      "Descricao": "Pagamentos e fidelidade Shell Box",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "ServicoCofre",
+      "Titulo": "Serviço Cofre",
+      "Descricao": "Comunicação e monitoramento do cofre inteligente",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "ServicoMicroTerminal",
+      "Titulo": "Micro Terminal",
+      "Descricao": "Comunicação com terminais e teclados de pista",
+      "Porta": 0,
+      "Protegido": false
+    },
+    {
+      "Nome": "postgresql-x64-9.5",
+      "Titulo": "PostgreSQL 9.5",
+      "Descricao": "Banco de Dados relacional PostgreSQL v9.5",
+      "Porta": 5432,
+      "Protegido": true
+    },
+    {
+      "Nome": "postgresql-x64-12",
+      "Titulo": "PostgreSQL 12",
+      "Descricao": "Banco de Dados relacional PostgreSQL v12",
+      "Porta": 5432,
+      "Protegido": true
+    }
+  ]
+}

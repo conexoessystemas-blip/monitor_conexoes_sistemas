@@ -1,0 +1,16 @@
+# Logs e Arquivos Temporários
+monitoramento_log*.txt
+diagnostico_*.txt
+*.tmp
+*.log
+
+# Backups Locais
+backup*/
+backup_original/
+monitoramento_conexoes/
+
+# Arquivos de Sistema e IDE
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
